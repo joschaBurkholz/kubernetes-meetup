@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: library/ubuntu
+          image: nginx:1.7.9
           command: [ "/bin/bash", "-c", "--" ]
           args: [ "while true; do sleep 30; done;"]
